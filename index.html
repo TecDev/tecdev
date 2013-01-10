@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>+Design - Uma imagem vale mais do que mil palavras!!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Uma imagem vale mais do que mil palavras!! Ajude-nos a criar a sua..." />
+        <meta name="keywords" content="web-design, design, html5, css3, php, json, imagem corporativa, paginacao, catalogos, newsletter, comunicacao, branding, imagem corporativa, design grafico, back-office, publicidade, design de produto "/>
+
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/jquery.form.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
+
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                font-family:Arial;
+                background: url(Clean-Gray-BackGround2.jpg) repeat bottom left;
+            }
+            a{
+                color:#444;
+            }
+            a:hover{
+                color:#999;
+            }
+            .title{
+                width:500px;
+                height:152px;
+                position:absolute;
+                top:0px;
+                left:0px;
+                background:transparent url(title.png) no-repeat top left;
+            }
+            a.back{
+                background:transparent url(back.png) no-repeat top left;
+                position:fixed;
+                width:150px;
+                height:27px;
+                outline:none;
+                bottom:0px;
+                left:0px;
+            }
+            #content{
+                margin:0 auto;
+            }
+            .slogan{
+                clear:both;
+                top:300px;
+                left:40px;
+                position:absolute;
+                text-align:center;
+                width:400px;
+		height:90px;
+                padding:20px;
+            }
+            .slogan p {
+		margin-top:10px;
+                text-transform:uppercase;
+                text-shadow:5px 5px 5px #eee;
+                color:#fff;
+		opacity:1;
+                text-decoration:none;
+                font-size:20px;
+            }
+
+	.redessociais {
+	clear:both;
+	padding-top:700px;
+	width: 500px;
+	height: 30px;
+	margin:auto;
+	}
+
+	.redessociais p {
+	color:#ddd;
+	text-align:center;
+	font-size:9px;
+	}
+
+
+	.redessociais img {
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+            
+        </style>
+
+    </head>
+
+    <body>
+        <div id="content">
+            <div class="title"></div>
+            <div class="slogan"><br>
+                    <img src="slogan.png" />
+                     
+                            </div>
+
+	    <div class="redessociais">
+                <p> <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook" height="35" width="70"> </a>
+		 <a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter" height="35" width="70"> </a>
+		 <a href="http://www.plus.google.com"><img src="images/google.png" alt="google+" height="35" width="70"> </a>
+		 <a href="http://www.linkedin.com"><img src="images/linkedin.png" alt="linkedin" height="35" width="70"> </a>
+		 <a href="http://www.skype.com"><img src="images/skype.png" alt="skype" height="35" width="70"></a>
+ </br>&copy; 2012 Todos os direitos reservados a +Design &reg;</p> 
+            </div>
+
+
+
+            <ul class="accordion" id="accordion">
+                <li class="bg1">
+                    <div class="heading">Contactos</div>
+                    <div class="bgDescription"></div>
+                    <div class="description">
+				<h2>Contactos</h2>
+		    <div class="cont">
+                    <img width="40" height="40"src="images/morada.png" /><p> Rua XPTO, nº69</br> 3800-000 Aveiro</p></br>
+                    <img width="40" height="40"src="images/phone.png" /><p> +351 962 093 655</br> +351 234 696 969</p></br>
+                    <img width="40" height="40"src="images/email.png" /><p> geral@maisdesign.pt</br>r.humanos@maisdesign.pt</p>
+                    </div>
+                      <div id="wrap">
+           <form id="contactform" action="php/processForm.php" method="post"></br></br>
+        <table>
+          <tr>
+            <td><label for="nome">Nome:</label></td>
+            <td><input type="text" id="nome" name="nome" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="mensagem">Mensagem:</label></td>
+            <td><textarea id="mensagem" name="mensagem" rows="5" cols="20"></textarea></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Enviar!" id="enviar" /></td>
+          </tr>
+        </table>
+      </form>
+      <div id="response"></div>
+    </div>
+   
+                    </div>
+                </li>
+                <li class="bg2">
+                    <div class="heading">Port-Folio</div>
+                    <div class="bgDescription"></div>
+                    <div class="description">
+                        <h2>Os Trabalhos Mais Recentes</h2>
+                       <div class="panel1">  <a href="http://www.induslubre.pt"><img width="200" height="160" class="card-background" src="images/induslubre.png"> </a></div>			    
+                       <div class="panel2">  <a href="http://www.aveiclean.pt"><img width="200" height="160" class="card-background" src="images/aveiclean.png"> </a></div>       			 
+                       <div class="panel3">  <a href="http://www.solardasestatuas.com"><img width="200" height="160" class="card-background" src="images/solar.png"> </a></div>                        
+                       <a href="#">more &rarr;</a>
+                    </div>
+                    
+                    
+                </li>
+                <li class="bg3">
+                    <div class="heading">O Que Fazemos</div>
+                    <div class="bgDescription"></div>
+                    <div class="description">
+                        <h2>O Que Fazemos</h2>
+                        <ul class="serv" id="serv1"><h3>Design de Comunicação</h3>
+			<li>Design Gráfico</li>
+			<li>Publicidade</li>
+			<li>Branding</li>
+			<li>Identidade corporativa</li>
+			<li>Design Editorial</li>
+			<li>Packaging</li>
+			</ul>
+
+<ul class="serv" id="serv2"><h3>Web-Design</h3>
+<li>Páginas Web</li>
+<li>Newsletters</li>
+<li>Lojas Online</li>
+<li>Criação de Páginas nas Redes Sociais</li>
+<li>Multimédia</li>
+</ul>
+
+<ul class="serv" id="serv3"><h3>Comunicação de Serviços</h3>
+<li>Gestão de Redes Sociais</li>
+<li>Google Adwords</li>
+<li>Fotografia</li>
+<li>Ilustração editorial</li>
+</ul>
+
+<ul class="serv" id="serv4"><h3>Produções Gráficas</h3>
+<li>Impressão em Offset</li>
+<li>Vinil (Diversos)</li>
+<li>Suportes</li>
+<li>Decoração de Viaturas</li>
+</ul>
+                       
+                    </div>
+
+                </li>
+                <li class="bg4 bleft">
+                    <div class="heading">Quem Somos</div>
+                    <div class="bgDescription"></div>
+                    <div class="description">
+                        <h2>Quem Somos</h2>
+                        <p>A evolução tecnológica, com que nos deparamos diariamente, assenta num mercado de trabalho onde a imagem e a comunicação tem uma validade temporal curta, exigindo por parte das empresas uma estrutura comunicacional forte e inovadora que exerça sob a sociedade um papel preciso, eficaz e assertivo..</br>
+
+Não há tempo a perder, nem meios a desperdiçar. A +Design sabe disso e por essa razão actua de forma integrada nas quatro áreas que podem potencializar o seu negócio: Design de Comunicação; Webdesign; Comunicação de Serviços e Produções Gráficas.</br>
+
+Trabalhamos lado a lado com os nossos clientes, propondo activamente ideias e estratégias que possam melhorar a sua competitividade. </br>
+Somos adeptos do crescimento mútuo. </br>
+O negócio gera negócio.</br>
+
+Sem negligenciar a velocidade que impera no dia-a-dia da sua empresa, não o deixamos esquecer as componentes que estiveram na origem do seu projecto empresarial – o sonho e a ambição. </br>
+Lembra-se? Fazemos questão de o relembrar, pois a nossa missão para consigo é reflectir, projectar e concretizar ideias que o tornem maior e melhor. Afinal, “Somos da matéria de que são feitos os sonhos”. </br>
+
+A nossa inspiração é a sua empresa, </br>
+o seu produto.</br>
+
+Criamos imagem, </br>
+comunicamos conceitos!</p>
+                        <a href="#">more &rarr;</a>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#accordion > li').hover(
+                    function () {
+                        var $this = $(this);
+                        $this.stop().animate({'width':'480px'},500);
+                        $('.heading',$this).stop(true,true).fadeOut();
+                        $('.bgDescription',$this).stop(true,true).slideDown(500);
+                        $('.description',$this).stop(true,true).fadeIn();
+                    },
+                    function () {
+                        var $this = $(this);
+                        $this.stop().animate({'width':'115px'},1000);
+                        $('.heading',$this).stop(true,true).fadeIn();
+                        $('.description',$this).stop(true,true).fadeOut(500);
+                        $('.bgDescription',$this).stop(true,true).slideUp(700);
+                    }
+                );
+            });
+        </script>
+    </body>
+</html>
